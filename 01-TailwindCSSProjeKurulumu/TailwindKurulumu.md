@@ -88,3 +88,7 @@ module.exports = {
 ```
 npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 ```
+
+&nbsp;
+
+<**_[Alper BİLGİN](https://github.com/DREAXS)_**>

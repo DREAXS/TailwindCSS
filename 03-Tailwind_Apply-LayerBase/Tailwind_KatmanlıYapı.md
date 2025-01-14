@@ -90,3 +90,7 @@ Bu stiller, projedeki her yerde aynı görünüme sahip butonlar oluşturmanıza
 1. **`base`**: Temel stiller (HTML etiketlerine uygulanan ilk stiller).
 2. **`components`**: Yeniden kullanılabilir bileşenler (butonlar, kartlar, vb.).
 3. **`utilities`**: Yardımcı sınıflar (özellikle tek bir CSS özelliği).
+
+&nbsp;
+
+<**_[Alper BİLGİN](https://github.com/DREAXS)_**>

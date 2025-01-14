@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container mx-auto">
+      <div class="grid grid-cols-3 gap-4">
+        <div>01</div>
+        <div class="visible">02</div>
+        <div>03</div>
+      </div>
+
+      <div class="grid grid-cols-3 gap-4">
+        <div>01</div>
+        <div class="invisible">02</div>
+        <div>03</div>
+      </div>
+
+      <div class="visible hover:invisible p-10 bg-gray-800">
+        <!-- ... -->
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Invoice #</th>
+            <th>Client</th>
+            <th>Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>#100</td>
+            <td>Pendant Publishing</td>
+            <td>$2,000.00</td>
+          </tr>
+          <tr class="collapse">
+            <td>#101</td>
+            <td>Kruger Industrial Smoothing</td>
+            <td>$545.00</td>
+          </tr>
+          <tr>
+            <td>#102</td>
+            <td>J. Peterman</td>
+            <td>$10,000.25</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
+<!-- 
+container: İçeriği ortalar.
+mx-auto: Yatayda ortalar.
+grid: Grid (ızgara) düzeni başlatır.
+grid-cols-3: 3 sütunlu grid düzeni oluşturur.
+gap-4: Sütunlar ve satırlar arasına 4 birim boşluk ekler.
+visible: Elemanı görünür yapar.
+invisible: Elemanı görünmez yapar (boşluk bırakmaya devam eder).
+hover:invisible: Hover durumunda elemanı görünmez yapar.
+p-10: 10 birim iç boşluk (padding) ekler.
+bg-gray-800: Arka plan rengini koyu gri yapar.
+collapse: Elemanı gizler ve yer kaplamaz. 
+-->
