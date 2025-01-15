@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwindcss</title>
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body class="p-5 bg-white dark:bg-slate-950 text-gray-800 dark:text-gray-100">
+    <h1 class="text-center text-5xl mb-5">Background Position</h1>
+
+    <div class="container mx-auto p-10">
+      <div
+        class="bg-[url('https://picsum.photos/seed/picsum/536/354')] h-[354px] bg-no-repeat mb-10"
+      ></div>
+
+      <div
+        class="bg-[url('https://picsum.photos/seed/picsum/536/354')] h-60 w-60 bg-no-repeat mb-10 bg-bottom"
+      ></div>
+
+      <div
+        class="bg-[url('https://picsum.photos/seed/picsum/536/354')] h-60 w-60 bg-no-repeat mb-10 bg-top"
+      ></div>
+
+      <div
+        class="bg-[url('https://picsum.photos/seed/picsum/536/354')] h-60 w-60 bg-no-repeat mb-10 bg-left-top"
+      ></div>
+
+      <div
+        class="bg-[url('https://picsum.photos/seed/picsum/536/354')] h-60 w-60 bg-no-repeat mb-10 bg-right-top"
+      ></div>
+
+      <div
+        class="bg-[url('https://picsum.photos/seed/picsum/536/354')] h-60 w-60 bg-no-repeat mb-10 bg-center"
+      ></div>
+    </div>
+  </body>
+</html>
+
+<!-- 
+bg-[url(...)]: Arka plan görselini URL ile ayarlar.
+h-*: Yüksekliği belirler.
+w-*: Genişliği belirler.
+bg-no-repeat: Arka plan görselini tekrarlamaktan engeller.
+bg-bottom: Arka plan görselini alt hizasında konumlandırır.
+bg-top: Arka plan görselini üst hizasında konumlandırır.
+bg-left-top: Arka plan görselini sol üst köşeye hizalar.
+bg-right-top: Arka plan görselini sağ üst köşeye hizalar.
+bg-center: Arka plan görselini ortalar.
+mb-10: Alt tarafta 2.5rem (40px) margin ekler. 
+-->

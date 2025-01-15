@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwindcss</title>
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body class="p-5 bg-white dark:bg-slate-950 text-gray-800 dark:text-gray-100">
+    <div class="container mx-auto bg-green-950 text-white p-10">
+      <h1 class="text-center text-5xl mb-5 bg-red-600 p-3">Background</h1>
+      <h1 class="text-center text-5xl mb-5 bg-blue-600 p-3">Background 2</h1>
+      <p>Content</p>
+    </div>
+
+    <div class="container mx-auto p-10">
+      <button class="bg-sky-500/100 py-3 px-5 text-lg rounded-md hover:bg-sky-500/75">
+        Button 1
+      </button>
+      <button class="bg-red-500/100 py-3 px-5 text-lg rounded-md hover:bg-red-500/75">
+        Button 2
+      </button>
+      <button class="bg-red-500 py-3 px-5 text-lg rounded-md hover:bg-red-700">Button 3</button>
+      <button class="bg-red-500 lg:bg-green-600 py-3 px-5 text-lg rounded-md">Button 4</button>
+      <button class="bg-[#d3409d] py-3 px-5 text-lg rounded-md">Button 5</button>
+    </div>
+  </body>
+</html>
+
+<!-- 
+p-5: İçeriğe 1.25rem (20px) padding ekler.
+bg-white: Arka plan rengini beyaz yapar.
+dark:bg-slate-950: Karanlık modda arka plan rengini koyu gri (slate-950) yapar.
+text-gray-800: Metin rengini koyu gri yapar.
+dark:text-gray-100: Karanlık modda metin rengini açık gri yapar.
+container: İçeriği yatayda merkezler ve belli bir genişlik sınırına sahip yapar.
+mx-auto: Yatayda otomatik margin ekler (merkezler).
+bg-green-950: Arka plan rengini koyu yeşil yapar.
+text-white: Metin rengini beyaz yapar.
+p-10: İçeriğe 2.5rem (40px) padding ekler.
+text-center: Metni yatayda ortalar.
+text-5xl: Yazı boyutunu 3rem (48px) yapar.
+mb-5: Alt tarafta 1.25rem (20px) margin ekler.
+bg-red-600: Arka plan rengini kırmızı yapar.
+p-3: İçeriğe 0.75rem (12px) padding ekler.
+bg-blue-600: Arka plan rengini mavi yapar.
+py-3: Üst ve alt tarafta 0.75rem (12px) padding ekler.
+px-5: Sol ve sağ tarafta 1.25rem (20px) padding ekler.
+text-lg: Yazı boyutunu 1.125rem (18px) yapar.
+rounded-md: Kenarları yuvarlatır (orta derecede).
+hover:bg-sky-500/75: Hover durumunda arka plan rengini daha opak mavi (sky-500/75) yapar.
+bg-sky-500/100: Arka plan rengini tam opak mavi yapar.
+bg-red-500/100: Arka plan rengini kırmızı tonunda (red-500) tam opak yapar.
+hover:bg-red-500/75: Hover durumunda kırmızı arka plan rengini daha opak hale getirir (red-500/75).
+hover:bg-red-700: Hover durumunda arka plan rengini koyu kırmızıya (red-700) değiştirir.
+lg:bg-green-600: Büyük ekranlarda (lg) arka plan rengini yeşil yapar (green-600).
+bg-[#d3409d]: Arka plan rengini özel hex kodu (#d3409d) ile belirler (pembe tonlarında). 
+-->

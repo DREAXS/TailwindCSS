@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwindcss</title>
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body class="p-5 bg-white dark:bg-slate-950 text-gray-800 dark:text-gray-100">
+    <h1 class="text-center text-5xl mb-5">Background Image</h1>
+
+    <div class="container mx-auto p-10">
+      <div class="h-14 bg-gradient-to-l from-cyan-500 to-red-500 mb-5 rounded-md"></div>
+      <div class="h-14 bg-gradient-to-r from-cyan-500 to-red-500 mb-5 rounded-md"></div>
+      <div
+        class="h-14 bg-gradient-to-l hover:bg-gradient-to-r from-cyan-500 to-red-500 mb-5 rounded-md"
+      ></div>
+      <div
+        class="h-14 bg-gradient-to-l lg:bg-gradient-to-r from-cyan-500 to-red-500 mb-20 rounded-md"
+      ></div>
+
+      <div class="h-14 bg-gradient-to-r from-sky-500 to-indigo-500 mb-5 rounded-md"></div>
+      <div class="h-14 bg-gradient-to-r from-violet-500 to-fuchsia-500 mb-5 rounded-md"></div>
+      <div class="h-14 bg-gradient-to-r from-purple-500 to-pink-500 mb-5 rounded-md"></div>
+      <div class="h-14 bg-gradient-to-t from-purple-500 to-pink-500 mb-20 rounded-md"></div>
+
+      <div class="bg-[url('https://picsum.photos/seed/picsum/536/354')] h-[354px]">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, facere. Eligendi amet
+          quibusdam, autem quas debitis nam culpa unde pariatur, in id quo ducimus rem at labore
+          perspiciatis voluptate dolorum.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- 
+bg-gradient-to-*: Arka plan için gradyan renk geçişi sağlar. from-* ve to-* ile renkler belirtilir.
+h-*: Yüksekliği belirler.
+rounded-md: Kenarları yuvarlatır.
+bg-[url(...)]: Arka plan olarak görsel URL'sini kullanır.
+p-*: Padding (dış boşluk) ekler.
+text-*: Metin rengi ayarlar.
+dark:text-* ve dark:bg-*: Karanlık mod için renk ayarları yapar.
+hover:*: Hover durumunda geçiş ve stil değişimleri sağlar. 
+-->

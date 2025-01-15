@@ -14,11 +14,11 @@ Bu bölümde ele aldığımız bazı CSS sınıfları:
 
 ### A
 
-- **bg-{color}-{number}**: Arka plan rengini belirtir. {color} renk adıdır (örneğin, red, gray) ve {number} tonu belirler (örneğin, 300, 800).
 - **align-{items/center}**: Öğeleri hizalar.
 
 ### B
 
+- **bg-{color}-{number}**: Arka plan rengini belirtir. {color} renk adıdır (örneğin, red, gray) ve {number} tonu belirler (örneğin, 300, 800).
 - **border-{number}**: Kenarlık kalınlığını belirtir.
 - **box-border**: Padding ve border dahil öğe boyutları hesaplanır.
 - **box-content**: Padding ve border hariç öğe boyutları hesaplanır.

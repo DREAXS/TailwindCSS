@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwindcss</title>
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body class="p-5 bg-white dark:bg-slate-950 text-gray-800 dark:text-gray-100">
+    <h1 class="text-center text-5xl mb-5">Background Size</h1>
+
+    <div class="container mx-auto p-10">
+      <div
+        class="bg-[url('https://picsum.photos/seed/picsum/536/354')] h-[354px] bg-no-repeat mb-10"
+      ></div>
+
+      <div
+        class="bg-[url('https://picsum.photos/seed/picsum/536/354')] h-52 w-96 bg-repeat mb-10 bg-auto"
+      >
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, facere. Eligendi amet
+          quibusdam, autem quas debitis nam culpa unde pariatur, in id quo ducimus rem at labore
+          perspiciatis voluptate dolorum.
+        </p>
+      </div>
+
+      <div
+        class="bg-[url('https://picsum.photos/seed/picsum/536/354')] h-52 w-96 bg-repeat mb-10 bg-cover"
+      >
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, facere. Eligendi amet
+          quibusdam, autem quas debitis nam culpa unde pariatur, in id quo ducimus rem at labore
+          perspiciatis voluptate dolorum.
+        </p>
+      </div>
+
+      <div
+        class="bg-[url('https://picsum.photos/seed/picsum/536/354')] h-52 w-96 bg-no-repeat mb-10 bg-contain border dark:border-gray-600"
+      >
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, facere. Eligendi amet
+          quibusdam, autem quas debitis nam culpa unde pariatur, in id quo ducimus rem at labore
+          perspiciatis voluptate dolorum.
+        </p>
+      </div>
+
+      <div
+        class="bg-[url('https://picsum.photos/seed/picsum/536/354')] h-52 w-96 bg-no-repeat mb-10 bg-[length:200px_100px] border dark:border-gray-600"
+      >
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, facere. Eligendi amet
+          quibusdam, autem quas debitis nam culpa unde pariatur, in id quo ducimus rem at labore
+          perspiciatis voluptate dolorum.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- 
+bg-[url(...)]: Arka plan görselini URL ile ayarlar.
+h-*: Yüksekliği belirler.
+w-*: Genişliği belirler.
+bg-no-repeat: Arka plan görselini tekrarlamaktan engeller.
+bg-repeat: Arka plan görselini hem yatayda hem de dikeyde tekrar eder.
+bg-auto: Arka plan görselinin boyutunu otomatik olarak ayarlar.
+bg-cover: Arka plan görselinin tüm öğeyi kaplayacak şekilde boyutlandırılmasını sağlar.
+bg-contain: Arka plan görselinin öğe içinde tamamen görünmesini sağlayacak şekilde boyutlandırılmasını sağlar.
+bg-[length:200px_100px]: Arka plan görselinin özel boyutlarını ayarlar.
+border: Öğeye kenarlık ekler.
+dark:border-gray-600: Karanlık modda kenarlık rengini gri (gray-600) yapar. 
+-->
