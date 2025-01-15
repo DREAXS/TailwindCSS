@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body class="p-5">
+    <h1 class="text-center text-5xl">Flew grow</h1>
+
+    <div
+      class="container mx-auto flex text-green-600 border border-green-800 m-5"
+    >
+      <div class="bg-gray-300 w-24 p-5 m-3 text-center text-3xl">1</div>
+      <div class="bg-gray-300 w-24 p-5 m-3 text-center text-3xl">2</div>
+      <div class="bg-gray-300 w-24 p-5 m-3 text-center text-3xl">3</div>
+    </div>
+
+    <div
+      class="container mx-auto flex text-green-600 border border-green-800 m-5"
+    >
+      <div class="flex-none bg-gray-300 w-24 p-5 m-3 text-center text-3xl">
+        1
+      </div>
+      <div class="grow bg-gray-300 w-24 p-5 m-3 text-center text-3xl">2</div>
+      <div class="flex-none bg-gray-300 w-24 p-5 m-3 text-center text-3xl">
+        3
+      </div>
+    </div>
+
+    <div
+      class="container mx-auto flex text-green-600 border border-green-800 m-5"
+    >
+      <div class="grow bg-gray-300 w-24 p-5 m-3 text-center text-3xl">1</div>
+      <div class="grow-0 bg-gray-300 w-24 p-5 m-3 text-center text-3xl">2</div>
+      <div class="grow bg-gray-300 w-24 p-5 m-3 text-center text-3xl">3</div>
+    </div>
+  </body>
+</html>
+
+<!-- 
+p-5: Tüm yönlerden (üst, sağ, alt, sol) 5 birimlik (genellikle 1.25rem) padding (iç boşluk) ekler.
+text-center: Metni yatayda ortalar.
+text-5xl: Metin boyutunu oldukça büyük yapar (genellikle 3rem).
+container: İçeriği merkezi hale getiren, genişliği belirli bir maksimum değere sınırlayan bir sınıf. İçeriğin boyutu ekran genişliğine göre dinamik şekilde ayarlanır.
+
+mx-auto: Yalnızca yatayda (sağ ve sol) otomatik margin (dış boşluk) ekler, böylece element merkezlenir.
+flex: Flexbox düzenini aktif hale getirir. İçerik, flexbox kurallarına göre yerleştirilir.
+text-green-600: Yazı rengini yeşil tonlarından biri (600) yapar.
+border: Kenarlık ekler (genel kenarlık stilini tanımlar).
+border-green-800: Kenarlığın rengini yeşil tonlarından biri (800) yapar.
+m-5: Tüm yönlerden (üst, sağ, alt, sol) 5 birimlik margin (dış boşluk) ekler.
+bg-gray-300: Arka plan rengini gri tonlarından biri (300) yapar.
+w-24: Elementin genişliğini 6rem olarak ayarlar.
+p-5: Elementin iç kısmına (padding) 5 birimlik boşluk ekler.
+m-3: Elementin etrafına 3 birimlik dış boşluk ekler.
+text-3xl: Metin boyutunu büyük (genellikle 1.875rem) yapar. 
+-->

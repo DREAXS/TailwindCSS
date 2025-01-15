@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body class="p-5">
+    <h1 class="text-center text-5xl">Flex Direction</h1>
+    <div
+      class="container mx-auto flex flex-row text-green-600 border border-green-800 m-3"
+    >
+      <div><h3>Flex Row</h3></div>
+      <div class="bg-gray-300 w-24 p-5 m-3 text-center text-3xl">1</div>
+      <div class="bg-gray-300 w-24 p-5 m-3 text-center text-3xl">2</div>
+      <div class="bg-gray-300 w-24 p-5 m-3 text-center text-3xl">3</div>
+    </div>
+
+    <div
+      class="container mx-auto flex flex-row-reverse text-green-600 border border-green-800 m-3"
+    >
+      <div><h3>Flex Row Reverse</h3></div>
+      <div class="bg-gray-300 w-24 p-5 m-3 text-center text-3xl">1</div>
+      <div class="bg-gray-300 w-24 p-5 m-3 text-center text-3xl">2</div>
+      <div class="bg-gray-300 w-24 p-5 m-3 text-center text-3xl">3</div>
+    </div>
+
+    <div
+      class="container mx-auto flex flex-col text-green-600 border border-green-800 m-3"
+    >
+      <div><h3>Flex Col</h3></div>
+      <div class="bg-gray-300 w-24 p-5 m-3 text-center text-3xl">1</div>
+      <div class="bg-gray-300 w-24 p-5 m-3 text-center text-3xl">2</div>
+      <div class="bg-gray-300 w-24 p-5 m-3 text-center text-3xl">3</div>
+    </div>
+
+    <div
+      class="container mx-auto flex flex-col-reverse text-green-600 border border-green-800 m-3"
+    >
+      <div><h3>Flex Col Reverse</h3></div>
+      <div class="bg-gray-300 w-24 p-5 m-3 text-center text-3xl">1</div>
+      <div class="bg-gray-300 w-24 p-5 m-3 text-center text-3xl">2</div>
+      <div class="bg-gray-300 w-24 p-5 m-3 text-center text-3xl">3</div>
+    </div>
+  </body>
+</html>
+
+<!-- 
+p-5: Tüm kenarlara 1.25rem (20px) padding ekler.
+text-center: Metni yatayda ortalar.
+text-5xl: Yazı boyutunu çok büyük yapar (3rem).
+container: İçeriği merkezler ve genişliği sınırlı tutar.
+mx-auto: Yatayda otomatik margin ile ortalar.
+flex: Flexbox düzeni oluşturur.
+flex-row: Flexbox öğelerinin yatayda (sağdan sola) sıralanmasını sağlar.
+flex-row-reverse: Flexbox öğelerini ters sırada yatayda sıralar.
+flex-col: Flexbox öğelerinin dikeyde (üstten alta) sıralanmasını sağlar.
+flex-col-reverse: Flexbox öğelerini ters sırada dikeyde sıralar.
+text-green-600: Metni yeşil renkte yapar.
+border: Sınır (border) ekler.
+border-green-800: Koyu yeşil sınır rengi.
+m-3: Tüm kenarlara 0.75rem (12px) margin ekler.
+bg-gray-300: Arka plan rengini açık gri yapar.
+w-24: Genişliği 6rem (96px) yapar.
+p-5 (her bir div için): İçerik ile kenar arasında 1.25rem (20px) padding ekler.
+text-3xl: Yazı boyutunu büyük yapar (1.875rem). 
+-->
