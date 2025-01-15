@@ -69,3 +69,7 @@ Tailwind CSS ile **Flexbox** kullanımı, esnek ve düzenli bir layout (düzen) 
 ### 11. **Gap (Boşluklar)**
 
 - **`gap-{size}`**: Flex öğeleri arasına boşluk ekler. Örneğin, **`gap-4`** 1rem boşluk bırakır.
+
+&nbsp;
+
+<**_[Alper BİLGİN](https://github.com/DREAXS)_**>
