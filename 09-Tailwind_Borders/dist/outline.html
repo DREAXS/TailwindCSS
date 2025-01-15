@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwindcss</title>
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body class="p-5 bg-white dark:bg-slate-950 text-gray-800 dark:text-gray-100">
+    <h1 class="text-center text-5xl mb-5">Outline</h1>
+
+    <div class="container mx-auto p-10 mb-5 space-x-6">
+      <button class="outline outline-offset-2 outline-1 w-20 h-10 bg-gray-500 outline-lime-600">
+        Button A
+      </button>
+      <button
+        class="outline-dashed outline-offset-4 outline-2 w-20 h-10 bg-gray-500 outline-pink-800"
+      >
+        Button B
+      </button>
+      <button
+        class="outline-dotted outline-offset-8 outline-4 w-20 h-10 bg-gray-500 outline-red-700"
+      >
+        Button C
+      </button>
+      <button
+        class="outline-double outline-offset-[6px] outline-8 w-20 h-10 bg-gray-500 outline-green-600"
+      >
+        Button D
+      </button>
+      <button class="outline outline-offset-2 outline-[5px] w-20 h-10 bg-gray-500 outline-sky-700">
+        Button E
+      </button>
+      <button
+        class="outline outline-offset-2 outline-[5px] w-20 h-10 bg-gray-500 outline-[#243c5a]"
+      >
+        Button F
+      </button>
+    </div>
+  </body>
+</html>
+
+<!-- 
+outline: Outline uygular.
+outline-offset-{value}: Outline ile öğe arasındaki mesafeyi belirler.
+outline-{width}: Outline genişliğini belirler (px cinsinden).
+outline-{color}: Outline rengini belirler.
+outline-dashed, outline-dotted, outline-double: Outline çizgi tipini belirler.
+outline-[value]: Özel bir değerle outline genişliği belirler (örneğin outline-[5px]). 
+-->

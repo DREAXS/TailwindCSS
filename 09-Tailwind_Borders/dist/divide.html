@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwindcss</title>
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body class="p-5 bg-white dark:bg-slate-950 text-gray-800 dark:text-gray-100">
+    <h1 class="text-center text-5xl mb-5">Divide</h1>
+
+    <div class="container mx-auto p-10 mb-5">
+      <div class="grid grid-cols-3 divide-x-4 divide-emerald-500 divide-solid max-w-xs">
+        <div class="p-5">01</div>
+        <div class="p-5">02</div>
+        <div class="p-5">03</div>
+      </div>
+
+      <div class="grid grid-cols-1 divide-y-4 max-w-xs divide-blue-900 divide-dashed">
+        <div class="p-5">01</div>
+        <div class="p-5">02</div>
+        <div class="p-5">03</div>
+      </div>
+
+      <div
+        class="flex flex-col-reverse divide-y-4 divide-y-reverse divide-blue-950 lg:divide-red-700 divide-dotted max-w-xs"
+      >
+        <div class="p-5">01</div>
+        <div class="p-5">02</div>
+        <div class="p-5">03</div>
+      </div>
+
+      <div
+        class="grid grid-cols-3 divide-x-[10px] divide-orange-700 hover:divide-sky-400 divide-double max-w-xs"
+      >
+        <div class="p-5">01</div>
+        <div class="p-5">02</div>
+        <div class="p-5">03</div>
+      </div>
+
+      <div class="grid grid-cols-3 divide-x-4 max-w-xs divide-[#243c5a]">
+        <div class="p-5">01</div>
+        <div class="p-5">02</div>
+        <div class="p-5">03</div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- 
+divide-x: Yatayda bölücüler ekler (sütunlar arasında).
+divide-y: Dikeyde bölücüler ekler (satırlar arasında).
+divide-{color}: Bölücünün rengini belirtir.
+divide-{size}: Bölücünün genişliğini belirtir.
+divide-solid, divide-dashed, divide-dotted, divide-double: Bölücünün çizgi tipini belirler.
+divide-reverse: Bölücünün yönünü tersine çevirir.
+hover:divide-{color}: Hover (üzerine gelindiğinde) durumunda bölücü rengini değiştirir. 
+-->

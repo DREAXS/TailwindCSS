@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwindcss</title>
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body class="p-5 bg-white dark:bg-slate-950 text-gray-800 dark:text-gray-100">
+    <h1 class="text-center text-5xl mb-5">Border-radius</h1>
+
+    <div class="container mx-auto p-10 mb-5 flex">
+      <div class="w-20 h-20 m-5 bg-sky-700 rounded-sm"></div>
+      <div class="w-20 h-20 m-5 bg-sky-700 rounded"></div>
+      <div class="w-20 h-20 m-5 bg-sky-700 rounded-md"></div>
+      <div class="w-20 h-20 m-5 bg-sky-700 rounded-lg"></div>
+      <div class="w-20 h-20 m-5 bg-sky-700 rounded-2xl"></div>
+      <div class="w-20 h-20 m-5 bg-sky-700 rounded-3xl"></div>
+      <div class="w-20 h-20 m-5 bg-sky-700 rounded-full"></div>
+    </div>
+
+    <div class="container mx-auto p-10 mb-5 flex">
+      <div class="w-20 h-20 m-5 bg-sky-700 rounded-t-lg"></div>
+      <div class="w-20 h-20 m-5 bg-sky-700 rounded-r-lg"></div>
+      <div class="w-20 h-20 m-5 bg-sky-700 rounded-b-lg"></div>
+      <div class="w-20 h-20 m-5 bg-sky-700 rounded-l-lg"></div>
+    </div>
+
+    <div class="container mx-auto p-10 mb-5 flex">
+      <div class="w-20 h-20 m-5 bg-sky-700 rounded-tl-lg"></div>
+      <div class="w-20 h-20 m-5 bg-sky-700 rounded-tr-lg"></div>
+      <div class="w-20 h-20 m-5 bg-sky-700 rounded-bl-lg"></div>
+      <div class="w-20 h-20 m-5 bg-sky-700 rounded-br-lg"></div>
+    </div>
+
+    <div class="container mx-auto p-10 mb-5 flex">
+      <div class="w-20 h-20 m-5 bg-sky-700 rounded-[10px]"></div>
+      <div class="w-20 h-20 m-5 bg-sky-700 rounded-[10px] hover:rounded-[30px]"></div>
+      <div class="w-20 h-20 m-5 bg-sky-700 rounded-[10px] md:rounded-[30px]"></div>
+    </div>
+  </body>
+</html>
+
+<!-- 
+rounded sınıfı ile tüm köşeleri yuvarlatabilirsiniz.
+rounded-sm, rounded-md, rounded-lg, rounded-2xl, rounded-3xl, rounded-full gibi sınıflar farklı boyutlarda yuvarlatılmış köşeler sağlar.
+rounded-t-*, rounded-r-*, rounded-b-*, rounded-l-* ile belirli kenarları yuvarlatabilirsiniz.
+rounded-tl-*, rounded-tr-*, rounded-bl-*, rounded-br-* sınıfları ile belirli köşeleri yuvarlatabilirsiniz.
+rounded-[value] özelleştirilmiş yuvarlatma değerleri için kullanılır (örneğin, rounded-[10px]). 
+-->

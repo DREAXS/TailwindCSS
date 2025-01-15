@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwindcss</title>
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body class="p-5 bg-white dark:bg-slate-950 text-gray-800 dark:text-gray-100">
+    <h1 class="text-center text-5xl mb-5">Border</h1>
+
+    <div class="container mx-auto p-10 flex mb-5">
+      <div class="w-10 h-10 m-5 border border-sky-500"></div>
+      <div class="w-10 h-10 m-5 border-2 border-sky-500"></div>
+      <div class="w-10 h-10 m-5 border-4 border-sky-500"></div>
+      <div class="w-10 h-10 m-5 border-8 border-sky-500"></div>
+    </div>
+
+    <div class="container mx-auto p-10 flex mb-5">
+      <div class="w-10 h-10 m-5 border border-t border-sky-500"></div>
+      <div class="w-10 h-10 m-5 border border-t-2 border-sky-500"></div>
+      <div class="w-10 h-10 m-5 border border-t-4 border-sky-500"></div>
+      <div class="w-10 h-10 m-5 border border-t-8 border-sky-500"></div>
+
+      <div class="w-10 h-10 m-5 border border-t border-sky-500"></div>
+      <div class="w-10 h-10 m-5 border border-r-2 border-sky-500"></div>
+      <div class="w-10 h-10 m-5 border border-b-4 border-sky-500"></div>
+      <div class="w-10 h-10 m-5 border border-l-8 border-sky-500"></div>
+
+      <div class="w-10 h-10 m-5 border border-x-4 border-sky-500"></div>
+      <div class="w-10 h-10 m-5 border border-y-4 border-sky-500"></div>
+    </div>
+
+    <div class="container mx-auto p-10 flex mb-5">
+      <div class="w-10 h-10 m-5 border hover:border-8 border-sky-500"></div>
+      <div class="w-10 h-10 m-5 border md:border-8 border-sky-500"></div>
+      <div class="w-10 h-10 m-5 border-[3px] border-sky-500"></div>
+    </div>
+
+    <!-- Colours -->
+    <div class="container mx-auto p-10 flex mb-5">
+      <div class="w-10 h-10 m-5 border hover:border-8 border-red-500"></div>
+      <div class="w-10 h-10 m-5 border md:border-8 border-red-900"></div>
+      <div class="w-10 h-10 m-5 border-[3px] border-gray-500"></div>
+      <div class="w-10 h-10 m-5 border-[3px] border-blue-700"></div>
+    </div>
+
+    <div class="container mx-auto p-10 flex mb-5">
+      <div class="w-10 h-10 m-5 border hover:border-8 border-red-500/25"></div>
+      <div class="w-10 h-10 m-5 border md:border-8 border-red-900/75"></div>
+      <div class="w-10 h-10 m-5 border md:border-8 border-red-900/[.50]"></div>
+      <div class="w-10 h-10 m-5 border border-x-4 border-sky-700 border-x-red-500"></div>
+      <div class="w-10 h-10 m-5 border border-y-4 border-sky-700 border-y-orange-500"></div>
+      <div class="w-10 h-10 m-5 border border-y-4 border-[#243c5a]"></div>
+    </div>
+
+    <div class="container mx-auto p-10 flex mb-5">
+      <div class="w-10 h-10 m-5 border border-t border-orange-500"></div>
+      <div class="w-10 h-10 m-5 border border-t-2 border-sky-500"></div>
+      <div class="w-10 h-10 m-5 border border-t-4 border-indigo-500"></div>
+      <div class="w-10 h-10 m-5 border border-t-8 border-red-500"></div>
+
+      <div class="w-10 h-10 m-5 border border-t border-purple-500"></div>
+      <div class="w-10 h-10 m-5 border border-r-2 border-pink-500"></div>
+      <div class="w-10 h-10 m-5 border border-b-4 border-slate-500"></div>
+      <div class="w-10 h-10 m-5 border border-l-8 border-yellow-500"></div>
+
+      <div class="w-10 h-10 m-5 border border-x-4 border-red-500"></div>
+      <div class="w-10 h-10 m-5 border border-y-4 border-red-500"></div>
+    </div>
+
+    <div class="container mx-auto p-10 flex mb-5">
+      <div class="w-10 h-10 m-5 border-2 border-solid border-sky-500"></div>
+      <div class="w-10 h-10 m-5 border-2 border-dashed border-sky-500"></div>
+      <div class="w-10 h-10 m-5 border-2 border-dotted border-sky-500"></div>
+      <div class="w-10 h-10 m-5 border-2 border-double border-sky-500"></div>
+    </div>
+  </body>
+</html>
+
+<!-- 
+border: Kenarlık ekler.
+border-*: Kenarlık genişliğini ayarlar (1px, 2px, 4px, 8px gibi).
+border-t, border-r, border-b, border-l: Yalnızca belirli kenarlara kenarlık ekler.
+border-x-* ve border-y-*: Sol/sağ (x) ve üst/alt (y) kenarlarına kenarlık ekler.
+border-* renkler: Kenarlığın rengini belirler (örneğin border-sky-500, border-red-500).
+hover:border-*: Hover (fare üzerine geldiğinde) durumu için kenarlık renk değişimi.
+border-solid, border-dashed, border-dotted, border-double: Kenarlık stillerini belirler. 
+-->

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwindcss</title>
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body class="p-5 bg-white dark:bg-slate-950 text-gray-800 dark:text-gray-100">
+    <h1 class="text-center text-5xl mb-5">Ring</h1>
+
+    <div class="container mx-auto p-10 mb-5 space-x-12">
+      <button
+        class="w-20 h-10 bg-gray-200 dark:bg-gray-900 ring-1 ring-offset-1 focus:ring-4 ring-red-700/75 ring-offset-gray-600 dark:ring-offset-sky-400"
+      >
+        Button A
+      </button>
+      <button
+        class="w-20 h-10 bg-gray-200 dark:bg-gray-900 ring-2 ring-offset-2 md:ring-8 ring-sky-700 ring-offset-gray-600"
+      >
+        Button B
+      </button>
+      <button
+        class="w-20 h-10 bg-gray-200 dark:bg-gray-900 ring-8 ring-offset-4 ring-orange-700 ring-offset-gray-600"
+      >
+        Button C
+      </button>
+      <button
+        class="w-20 h-10 bg-gray-200 dark:bg-gray-900 ring-8 ring-offset-4 ring-orange-700/50 ring-offset-gray-600"
+      >
+        Button C
+      </button>
+      <button
+        class="w-20 h-10 bg-gray-200 dark:bg-gray-900 ring-1 ring-offset-8 ring-yellow-700 ring-offset-gray-600"
+      >
+        Button D
+      </button>
+      <button
+        class="w-20 h-10 bg-gray-200 dark:bg-gray-900 ring-[10px] ring-offset-8 ring-[#50d71e] ring-offset-[#91a7d8]"
+      >
+        Button E
+      </button>
+    </div>
+  </body>
+</html>
+
+<!-- 
+ring-{width}: Ring genişliğini ayarlar.
+ring-offset-{value}: Ring ile öğe arasındaki mesafeyi belirler.
+focus:ring-{width}: Odaklandığında (focus) ring genişliğini ayarlar.
+ring-{color}: Ring rengini belirler.
+ring-offset-{color}: Ring'in dış tarafındaki mesafeyi rengini belirler.
+ring-{opacity}: Ring'in opaklığını ayarlar. 
+ -->
